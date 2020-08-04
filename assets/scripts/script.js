@@ -16,11 +16,11 @@ function generatePassword() {
  
 }
 
-// user click
-// writePassword ()
-// criteria 
-  // lenth 8-128 | num | uppercase, lowercase letters | sympols
+// Create a variable that holds users input for password length 
+var userLength = "";
+// Create a while-loop that will keep prompting the users if the users input is not a number between 8 and 128 
+while (isNaN(parseInt(userLength, 10)) || parseInt(userLength, 10) < 8 || parseInt(userLength, 10) > 128) {
+  userLength = prompt("Please enter a number as your password length. The number must be between 8 and 128, inclusive.");
 
-// prompt("") - for the length - it is a string, needs to convert back to number - make sure they enter actually numbers not string or cancel- NaN  - .isNaN( ) | confirm ( ) - for boolean answer
-//  condition check with while loop for validated answer (if not in the criteria, keep prompting)
-// gnerate random numbers for the length of the password chosen by the user
+  console.log(userLength);
+}
