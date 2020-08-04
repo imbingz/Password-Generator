@@ -12,18 +12,24 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-function generatePassword() {
-  // Create a variable that holds users input for password length 
-  var userLength = "";
-  // Create a while-loop that will keep prompting the users if the users input is not a number between 8 and 128 
-  while (isNaN(parseInt(userLength, 10)) || parseInt(userLength, 10) < 8 || parseInt(userLength, 10) > 128) {
-    userLength = prompt("Please enter a number as your password length. The number must be between 8 and 128, inclusive.");
+// Create a variable that holds users input for password length 
+var userLength = "";
+// Create a while-loop that will keep prompting the users if the users input is not a number between 8 and 128 
+while (isNaN(parseInt(userLength, 10)) || parseInt(userLength, 10) < 8 || parseInt(userLength, 10) > 128) {
+  userLength = prompt("Please enter a number as your password length. The number must be between 8 and 128, inclusive.");
 
-    console.log(userLength);
-  }
+  console.log(userLength);
+}
+
+function generatePassword() {
+  addChar()
+
 }
 
 // Create a function that will add all the randomly chosen characters 
+
+// Create a variable that will holds the preference characters
+var allChar = "";
 
 function addChar() {
   console.log("addChar is running");
@@ -33,8 +39,7 @@ function addChar() {
   var answerLower = confirm("Would you like lowercase letters in your password?");
   var answerSymbol = confirm("Would you like symbols in your password?");
 
-  // Create a variable that will holds the preference characters 
-  var allChar = "";
+
   // If users answer yes to any of these preference, add that preference characters to allChar variable 
   if (answerNumber) {
     var number = "0123456789";
@@ -61,3 +66,18 @@ function addChar() {
 }
 
 addChar()
+
+// create a variable that holds the sum of char selected randomly 
+var passwordChar = "";
+
+// Create a for-loop to randomly select the char for the same number of times as the password length chosen by user
+
+for (var i = 0; i < parseInt(userLength); i++) {
+// Create a variable that holds the random number created via random method within allChar
+  var char = Math.floor(Math.random() * allChar.length);
+// Add each random char to passwordChar 
+  passwordChar += allChar[char]
+
+}
+
+console.log(passwordChar);
