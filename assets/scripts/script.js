@@ -13,15 +13,12 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 
-
-
 function generatePassword() {
   validateInput();
   addChar();
   randomPassword();
   return passwordChar;
 }
-
 
 
 // Create a variable that holds users input for password length 
