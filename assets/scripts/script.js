@@ -14,31 +14,27 @@ generateBtn.addEventListener("click", writePassword);
 
 
 
-function generatePassword() {
-  // Create a variable that holds users input for password length 
-  // var userLength = "";
-  // // Create a while-loop that will keep prompting the users if the users input is not a number between 8 and 128 
-  // while (isNaN(parseInt(userLength, 10)) || parseInt(userLength, 10) < 8 || parseInt(userLength, 10) > 128) {
-  //   userLength = prompt("Please enter a number as your password length. The number must be between 8 and 128, inclusive.");
-  // }
-  validate();
-  
-  addChar();
-  
-  randomPassword();
 
+function generatePassword() {
+  validateInput();
+  addChar();
+  randomPassword();
+  return passwordChar;
 }
 
 
+
+// Create a variable that holds users input for password length 
+var userLength = "";
 // Create a function to validate the users input 
-function validate() {
-  // Create a variable that holds users input for password length 
-  var userLength = "";
+function validateInput() {
+
   // Create a while-loop that will keep prompting the users if the users input is not a number between 8 and 128 
   while (isNaN(parseInt(userLength, 10)) || parseInt(userLength, 10) < 8 || parseInt(userLength, 10) > 128) {
     userLength = prompt("Please enter a number as your password length. The number must be between 8 and 128, inclusive.");
   }
 }
+
 
 
 // Create a variable that will holds the preference characters
@@ -77,11 +73,11 @@ function addChar() {
 }
 
 
+// create a variable that holds the sum of char selected randomly 
+var passwordChar = "";
 // Create a function that will generate the password randomly 
 function randomPassword() {
-    // create a variable that holds the sum of char selected randomly 
-  var passwordChar = "";
-
+  
   // Create a for-loop to randomly select the char for the same number of times as the password length chosen by user
   for (var i = 0; i < parseInt(userLength); i++) {
   // Create a variable that holds the random number created via random method within allChar
