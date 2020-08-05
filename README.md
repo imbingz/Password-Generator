@@ -1,9 +1,9 @@
 # Password-Generator
 ### Table of Content
-[Project Context - User Story](#context)
+1. [Project Context - User Story](#context)
 
 
-<a id="context></a>
+<a name="context></a>
 ## Project Context - User Story
 * Strong passwords are the first line of defense in protecting business data and customer information. However, most of us have trouble memorizing strong passwords filled with special symbols and random characters. Therefore, we often choose the same password for multiple personal and business accounts, or we create simpler ones that are easy to crack. 
 * Employees who have access to high-sensitivity data might share their login information with others
