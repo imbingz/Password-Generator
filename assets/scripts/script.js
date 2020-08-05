@@ -50,24 +50,24 @@ function addChar() {
   if (answerNumber) {
     var number = "0123456789";
     allChar += number
-  }
-
-  if (answerUpper) {
+  } else if (answerUpper) {
     var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     allChar += uppercase
-  }
-
-  if (answerLower) {
+  } else if (answerLower) {
     var lowercase = "abcdefghijklmnopqrstuvwxyz";
     allChar += lowercase 
-  }
-
-  if (answerSymbol) {
+  } else if (answerSymbol) {
     var symbol = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~';
     allChar += symbol
+  } else {
+    alert("You must choose at least a numer, an uppercase letter, a lowercase letter or a symbol. Please try again!");
+    addChar();
   }
+
+
   return allChar
 }
+
 
 
 // create a variable that holds the sum of char selected randomly 
