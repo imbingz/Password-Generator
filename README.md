@@ -83,11 +83,9 @@ Add the above all together and iterate
 ### 8. Credits:
 I would like to thank my TA Katie @fkakatie for her guidance and efforts to help me understand the landscape of this project and what are some of the issues I need to consider and learn more about before even starting to build anything. Discussing some of the components and logics of building this app with my fellow coders Kyle Murray @theykey and Saul Macias was indeed helpful to further understand why certain ways of writing my codes did not work as I expected. The following materials contribute to the completion of this project too. 
 
-[Password Special characters - www.owasp.org](https://owasp.org/www-community/password-special-characters)
-
-[Random password generator - www.wikipedia.org](https://en.wikipedia.org/wiki/Random_password_generator)
-
-[How To Create A Strong Password - www.pcmag.com](https://www.pcmag.com/how-to/how-to-create-a-random-password-generator)
+* [Password Special characters - www.owasp.org](https://owasp.org/www-community/password-special-characters)
+* [Random password generator - www.wikipedia.org](https://en.wikipedia.org/wiki/Random_password_generator)
+* [How To Create A Strong Password - www.pcmag.com](https://www.pcmag.com/how-to/how-to-create-a-random-password-generator)
 
 
 <a name="learned"></a>
