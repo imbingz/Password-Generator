@@ -25,9 +25,9 @@ function generatePassword() {
 var userLength = "";
 // Create a function to validate the users input 
 function validateInput() {
-
+    prompt("Please enter a number as your password length. The number must be between 8 and 128, inclusive.")
   // Create a while-loop that will keep prompting the users if the users input is not a number between 8 and 128 
-  while (isNaN(parseInt(userLength, 10)) || parseInt(userLength, 10) < 8 || parseInt(userLength, 10) > 128) {
+    while (isNaN(parseInt(userLength, 10)) || parseInt(userLength, 10) < 8 || parseInt(userLength, 10) > 128) {
     userLength = prompt("Please enter a number as your password length. The number must be between 8 and 128, inclusive.");
   }
 }
