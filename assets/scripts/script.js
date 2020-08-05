@@ -40,21 +40,26 @@ function addChar() {
   var answerUpper = confirm("Would you like uppercase letters in your password?");
   var answerLower = confirm("Would you like lowercase letters in your password?");
   var answerSymbol = confirm("Would you like symbols in your password?");
-
   // If users answer yes to any of these preference, add that preference characters to allChar variable; otherwise, alert users a message and prompt these questions again
   if (answerNumber) {
     var number = "0123456789";
     allChar += number
-  } else if (answerUpper) {
+  }
+  if (answerUpper) {
     var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     allChar += uppercase
-  } else if (answerLower) {
+  } 
+  if (answerLower) {
     var lowercase = "abcdefghijklmnopqrstuvwxyz";
     allChar += lowercase 
-  } else if (answerSymbol) {
+  }
+  
+  if (answerSymbol) {
     var symbol = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~';
     allChar += symbol
-  } else {
+  }
+  
+  else {
     alert("You must choose at least a numer, an uppercase letter, a lowercase letter or a symbol. Please try again!");
     addChar();
   }
@@ -65,7 +70,6 @@ function addChar() {
 var passwordChar = "";
 // Create a function that will generate the password randomly 
 function randomPassword() {
-  
   // Create a for-loop to randomly select the char for the same number of times as the password length chosen by user
   for (var i = 0; i < parseInt(userLength); i++) {
   // Create a variable that holds the random number created via random method within allChar
