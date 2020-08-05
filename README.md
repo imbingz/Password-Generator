@@ -1,12 +1,13 @@
 # Password-Generator
+### Table of Content
+[Project Context - User Story](#context)
 
-## User Story
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+<a id="context></a>
+## Project Context - User Story
+* Strong passwords are the first line of defense in protecting business data and customer information. However, most of us have trouble memorizing strong passwords filled with special symbols and random characters. Therefore, we often choose the same password for multiple personal and business accounts, or we create simpler ones that are easy to crack. 
+* Employees who have access to high-sensitivity data might share their login information with others
+* it is important for companies to implement a secure password policy such as generating strong random passwords that provides greater security.
 
 
 
