@@ -45,10 +45,10 @@ https://github.com/imbingz/Password-Generator/
 ### 5. Screenshots 
 
 #### Screenshots - Mobile View
-<kbd>![screenshot-mobile](../assets/images/m1.png)</kbd>
+<kbd>![screenshot-mobile](./assets/images/m1.png)</kbd>
 
 ####  Screenshots - Laptop view 
-<kbd>![screenshot-laptop](../assets/images/s1.png)</kbd>
+<kbd>![screenshot-laptop](./assets/images/s1.png)</kbd>
 
 <a name = "Pseudocode"></a>
 ### 6. Pseudocode - Logic Steps
