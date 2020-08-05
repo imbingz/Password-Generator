@@ -25,7 +25,7 @@
 * Create an application that generates a random password based on user-selected criteria (numbers, uppercase letters, lowercase letters and symbols).
 * This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code. 
 * The password is either displayed in an alert or written to the page
-* It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.(This was given in the file already)
+* It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.(I used the given HTML & CSS files mostly)
 
 <a name = "Outcome"></a>
 ### 3. Outcome
