@@ -18,7 +18,7 @@
 ### 1. Project Context - User Story
 * Strong passwords are the first line of defense in protecting business data and customer information. However, most of us have trouble memorizing strong passwords filled with special symbols and random characters. Therefore, we often choose the same password for multiple personal and business accounts, or we create simpler ones that are easy to crack. 
 * Employees who have access to high-sensitive data might share their login information with others
-* it is important for companies to implement a secure password policy such as generating strong random passwords that provides greater security.
+* It is important for companies to implement a secure password policy such as generating strong random passwords that provides greater security.
 
 <a name = "objectives"></a>
 ### 2. Project Objectives
@@ -30,7 +30,7 @@
 <a name = "Outcome"></a>
 ### 3. Outcome
 * The user interface is responsive to different devices - mobile, tablets, laptops and larger screen desktops
-* THe app is dynamic and generates a random password based on user preference
+* The app is dynamic and generates a random password based on user preference
 
 <a name = "Links"></a>
 ### 4. Links 
