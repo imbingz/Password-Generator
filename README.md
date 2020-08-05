@@ -76,7 +76,7 @@ Add the above all together and iterate
 * Click on the green button that says Clone or Download
 * Choose how you would like to download: using the SSH/HTTPS keys or download the zip file
 * Using SSH/HTTPS Key: You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone paste url here. Once you have cloned the git repo, cd into the repo and type open. to open the folder which contains all files used for the website. Once inside the folder, click on index.html to open the website in the browser.
-* Using Download ZIP: Click on Download Zip. Locate the file and double click it to unzip the file. Locate the unzipped folder and and open it. All the files for the website will be within this folder. Click on index.html to open the website in the browser.
+* Using Download ZIP: Click on Download Zip. Locate the file and double click it to unzip the file. Locate the unzipped folder and open it. All the files for the website will be within this folder. Click on index.html to open the website in the browser.
 
 
 <a name="Credits"></a>
@@ -94,7 +94,7 @@ I would like to thank my TA Katie @fkakatie for her guidance and efforts to help
 ### 9. What I've Learned
 * Understanding the user story and objectives: WHY I need to build this app and what problem this app can solve is critical for me to proceed.
 * Using plain english to go through the steps of users action and interaction before starting to code not only helped me what decide functions I have learned might be used, but also helped boost my confidence, making me a HAPPY coder. :)
-* Working with a team is one of the best ways to learn. I like to hear how others approach the same problems from different angles and often than not, I'll find some flaws or gaps in my own logics and look for ways to make my solutions better and sounder. 
+* Working with a team is one of the best ways to learn. I like to hear how others approach the same problems from different angles and often than not, I'll find some flaws or gaps in my own logics and look for ways to make my solutions better and sound. 
 * Testing and iterating are absolutely a MUST. I was pretty confident that my app was bullet proof (since everything looked fine in the console as I was coding) until I tested it on the deployed site. Yes, I found bugs. 
 * I can continue to improve the security level of the random password by adding encryption methods, or making it into a different user interface such as checkboxes and more, all of which can be something for another future project. 
 
@@ -105,7 +105,7 @@ I would like to thank my TA Katie @fkakatie for her guidance and efforts to help
 <p>Copyright (c) [2020] [bingzhang]</p>
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
-<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 <hr>
 August 5, 2020.
 
