@@ -17,7 +17,7 @@
 <a name = "context"></a>
 ### 1. Project Context - User Story
 * Strong passwords are the first line of defense in protecting business data and customer information. However, most of us have trouble memorizing strong passwords filled with special symbols and random characters. Therefore, we often choose the same password for multiple personal and business accounts, or we create simpler ones that are easy to crack. 
-* Employees who have access to high-sensitivity data might share their login information with others
+* Employees who have access to high-sensitive data might share their login information with others
 * it is important for companies to implement a secure password policy such as generating strong random passwords that provides greater security.
 
 <a name = "objectives"></a>
@@ -79,11 +79,11 @@ Add the above all together and iterate
 <a name="Credits"></a>
 ### 8. Credits:
 
-[Password Special characters](https://owasp.org/www-community/password-special-characters)
+[Password Special characters - www.owasp.org](https://owasp.org/www-community/password-special-characters)
 
-[Random password generator](https://en.wikipedia.org/wiki/Random_password_generator)
+[Random password generator - www.wikipedia.org](https://en.wikipedia.org/wiki/Random_password_generator)
 
-[How To Create A Strong Password](https://www.pcmag.com/how-to/how-to-create-a-random-password-generator)
+[How To Create A Strong Password - www.pcmag.com](https://www.pcmag.com/how-to/how-to-create-a-random-password-generator)
 
 
 <a name="learned"></a>
