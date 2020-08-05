@@ -22,8 +22,9 @@
 
 <a name = "objectives"></a>
 ### 2. Project Objectives
-* Create an application that generates a random password based on user-selected criteria.
+* Create an application that generates a random password based on user-selected criteria (numbers, uppercase letters, lowercase letters and symbols).
 * This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code. 
+* The password is either displayed in an alert or written to the page
 * It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.(This was given in the file already)
 
 <a name = "Outcome"></a>
@@ -44,8 +45,10 @@ https://github.com/imbingz/Password-Generator/
 ### 5. Screenshots 
 
 #### Screenshots - Mobile View
+<kbd>![screenshot-mobile](../assets/images/m1.png)</kbd>
 
 ####  Screenshots - Laptop view 
+<kbd>![screenshot-laptop](../assets/images/s1.png)</kbd>
 
 <a name = "Pseudocode"></a>
 ### 6. Pseudocode - Logic Steps
@@ -78,6 +81,7 @@ Add the above all together and iterate
 
 <a name="Credits"></a>
 ### 8. Credits:
+I would like to thank my TA Katie @fkakatie for her guidance and efforts to help me understand the landscape of this project and what are some of the issues I need to consider and learn more about before even starting to build anything. Discussing some of the components and logics of building this app with my fellow coders Kyle Murray @theykey and Saul Macias was indeed helpful to further understand why certain ways of writing my codes did not work as I expected. The following materials contribute to the completion of this project too. 
 
 [Password Special characters - www.owasp.org](https://owasp.org/www-community/password-special-characters)
 
@@ -88,11 +92,15 @@ Add the above all together and iterate
 
 <a name="learned"></a>
 ### 9. What I've Learned
+* Understanding the user story and objectives: WHY I need to build this app and what problem this app can solve is critical for me to proceed.
+* Using plain english to go through the steps of users action and interaction before starting to code not only helped me what decide functions I have learned might be used, but also helped boost my confidence, making me a HAPPY coder. :)
+* Working with a team is one of the best ways to learn. I like to hear how others approach the same problems from different angles and often than not, I'll find some flaws or gaps in my own logics and look for ways to make my solutions better and sounder. 
+* Testing and iterating are absolutely a MUST. I was pretty confident that my app was bullet proof (since everything looked fine in the console as I was coding) until I tested it on the deployed site. Yes, I found bugs. 
+* I can continue to improve the security level of the random password by adding encryption methods, or making it into a different user interface such as checkboxes and more, all of which can be something for another future project. 
 
 
 <a name="License"></a>
 ### 9. License
-
 ##### MIT License
 <p>Copyright (c) [2020] [bingzhang]</p>
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
