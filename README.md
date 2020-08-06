@@ -52,22 +52,16 @@ https://github.com/imbingz/Password-Generator/
 
 <a name = "Pseudocode"></a>
 ### 6. Pseudocode - Logic Steps
-#### Step 1
-After the 'click' event, the users will be prompted to enter the password length. So create a variable that holds the users input. 
-#### Step 2
-Check if the users input is a number between 8 and 128. If not(such as letters, null, space, symbols, or numbers out of range), keep prompting until the input is as desired. 
-#### Step 3
-Ask users whether they would like their passwords to contain numbers, uppercase letters, lowercase letters and symbols. Create a variable to hold each answer (yes=true; no=false). If users select no to all questions, then alert "They must select at least one", and iterate the set of questions again until at least one is chosen. 
-#### Step 4
-Create a variable that holds the sum of user preference (if yes to any of the options, add those characters to the variable)
-#### Step 5
-Generate random numbers as index to choose the character randomly. 
-#### Step 6
-Run the step 5 for the same number of times as the password length input by the users 
-#### Step 7
-Create a variable that holds the sum of those random characters. 
-#### Step 8
-Add the above all together and iterate 
+* After the 'click' event, the users will be prompted to enter the password length. 
+* Need a variable that holds the users input. 
+* Check if the users input is a number between 8 and 128. 
+* If not(such as letters, null, space, symbols, or numbers out of range), keep prompting until the input is as desired. 
+* Ask users whether they would like their passwords to contain numbers, uppercase letters, lowercase letters and symbols. 
+* Create a variable to hold each answer (yes=true; no=false). 
+* If users select no to all questions, then ask these questions again. 
+* Collect user preference and assign to a variable
+* Generate random password characters
+* Create a variable that holds the sum of those random characters. 
 
 <a name="Installation"></a>
 ### 7. Installation
