@@ -28,7 +28,6 @@ function generatePassword() {
   var answerSymbol = confirm("Would you like symbols in your password?");
   // Create a while loop to prompt the users the same questions if users did not choose any character preference
   while (!answerNumber && !answerUpper && !answerLower && !answerSymbol) {
-    console.log("2nd while loop");
     alert("You must choose at least a numer, an uppercase letter, a lowercase letter or a symbol. Please try again!");
     answerNumber = confirm("Would you like numbers in your password?");
     answerUpper = confirm("Would you like uppercase letters in your password?");
@@ -56,7 +55,7 @@ function generatePassword() {
   }
   // create a variable that holds the sum of characters selected randomly 
   var passwordChar = "";
-  // Create a for-loop to randomly select the char for the same number of times as the password length chosen by user
+  // Create a for-loop to randomly select the character for the same number of times as the password length chosen by users
   for (var i = 0; i < parseInt(userLength); i++) {
   // Create a variable that holds the random number created via random method within allChar
     var char = Math.floor(Math.random() * allChar.length);
