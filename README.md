@@ -63,7 +63,7 @@ Create a variable that holds the sum of user preference (if yes to any of the op
 #### Step 5
 Generate random numbers as index to choose the character randomly. 
 #### Step 6
-Run the step 5 for the number of times, same as the password length input by the users 
+Run the step 5 for the same number of times as the password length input by the users 
 #### Step 7
 Create a variable that holds the sum of those random characters. 
 #### Step 8
