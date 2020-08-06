@@ -76,7 +76,7 @@ https://github.com/imbingz/Password-Generator/
 
 <a name="Credits"></a>
 ### 8. Credits:
-I would like to thank my TA Katie @fkakatie for her guidance and efforts to help me understand the landscape of this project and some of the aspects I need to consider and learn more about before even starting to build anything. I also want to thank my fellow coder Kyle Murray @theykay who took time helping me fix a bug in my original file after a day of searching for a solution. The following materials contribute to the completion of this project too. 
+I would like to thank my TA Katie @fkakatie(https://github.com/fkakatie) for her guidance and efforts to help me understand the landscape of this project and some of the aspects I need to consider and learn more about before even starting to build anything. I also want to thank my fellow coder Kyle Murray @theykay(https://github.com/theykay) who took time helping me fix a bug in my original file after a day of searching for a solution. The following materials contribute to the completion of this project too. 
 
 * [Password Special characters - www.owasp.org](https://owasp.org/www-community/password-special-characters)
 * [Random password generator - www.wikipedia.org](https://en.wikipedia.org/wiki/Random_password_generator)
