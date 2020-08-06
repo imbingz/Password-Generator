@@ -57,10 +57,10 @@ https://github.com/imbingz/Password-Generator/
 * Check if the users input is a number between 8 and 128. 
 * If not(such as letters, null, space, symbols, or numbers out of range), keep prompting until the input is as desired. 
 * Ask users whether they would like their passwords to contain numbers, uppercase letters, lowercase letters and symbols. 
-* Create a variable to hold each answer (yes=true; no=false). 
+* Create a variable to hold each answer. 
 * If users select no to all questions, then ask these questions again. 
-* Collect user preference and assign to a variable
-* Generate random password characters
+* Collect user preference and assign to a variable.
+* Generate random password characters.
 * Create a variable that holds the sum of those random characters. 
 
 <a name="Installation"></a>
@@ -75,7 +75,7 @@ https://github.com/imbingz/Password-Generator/
 
 <a name="Credits"></a>
 ### 8. Credits:
-I would like to thank my TA Katie @fkakatie for her guidance and efforts to help me understand the landscape of this project and some of the aspects I need to consider and learn more about before even starting to build anything. I also want to thank my fellow coder Kyle Murray @theykay who took time helping me fix a bug in my original code after a day of searching for a solution. The following materials contribute to the completion of this project too. 
+I would like to thank my TA Katie @fkakatie for her guidance and efforts to help me understand the landscape of this project and some of the aspects I need to consider and learn more about before even starting to build anything. I also want to thank my fellow coder Kyle Murray @theykay who took time helping me fix a bug in my original file after a day of searching for a solution. The following materials contribute to the completion of this project too. 
 
 * [Password Special characters - www.owasp.org](https://owasp.org/www-community/password-special-characters)
 * [Random password generator - www.wikipedia.org](https://en.wikipedia.org/wiki/Random_password_generator)
@@ -86,7 +86,7 @@ I would like to thank my TA Katie @fkakatie for her guidance and efforts to help
 ### 9. What I've Learned
 * Understanding the user story and objectives: WHY I need to build this app and what problem this app can solve is critical for me to proceed.
 * Using plain english to go through each step of users action and interaction before starting to code not only helped me look through my "tool box" for this app, but also helped boost my confidence. :)
-* Working with a team is one of the best ways to learn. I like to hear how others approach the same problems from different angles and often than not, I'll find some flaws or gaps in my own logic and look for ways to make my solutions better and sound. 
+* Working with a team is one of the best ways to learn. I like to hear how others approach the same problems from different angles and often than not, I'll find some flaws or gaps in my own logic and look for ways to make my solutions better and sound. I learned as well even when I was helping others with their questions.
 * Testing and iterating are absolutely a MUST. I was pretty confident that my app was bulletproof (since everything looked fine in the console as I was coding) until I tested it on the deployed site. Yes, I found bugs. 
 * In the future maybe it is worth trying how to improve the security level of the random password by adding encryption methods, or making it into a different user interface such as checkboxes instead of prompts. 
 
