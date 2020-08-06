@@ -88,6 +88,7 @@ I would like to thank my TA Katie @fkakatie for her guidance and efforts to help
 * Using plain english to go through each step of users action and interaction before starting to code not only helped me look through my "tool box" for this app, but also helped boost my confidence. :)
 * Working with a team is one of the best ways to learn. I like to hear how others approach the same problems from different angles and often than not, I'll find some flaws or gaps in my own logic and look for ways to make my solutions better and sound. I learned as well even when I was helping others with their questions.
 * Testing and iterating are absolutely a MUST. I was pretty confident that my app was bulletproof (since everything looked fine in the console as I was coding) until I tested it on the deployed site. Yes, I found bugs. 
+* There is always room for improvement. I feel that if I spend enough time pondering on my codes, I keep finding better ways to write them. So, I am learning when to call it a quit and let my codes rest. 
 * In the future maybe it is worth trying how to improve the security level of the random password by adding encryption methods, or making it into a different user interface such as checkboxes instead of prompts. 
 
 
