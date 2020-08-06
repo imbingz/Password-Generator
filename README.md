@@ -92,7 +92,7 @@ I would like to thank my TA Katie @fkakatie for her guidance and efforts to help
 
 
 <a name="License"></a>
-### 9. License
+### 10. License
 ##### MIT License
 <p>Copyright (c) [2020] [bingzhang]</p>
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
