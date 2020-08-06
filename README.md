@@ -81,7 +81,7 @@ Add the above all together and iterate
 
 <a name="Credits"></a>
 ### 8. Credits:
-I would like to thank my TA Katie @fkakatie for her guidance and efforts to help me understand the landscape of this project and some of the aspects I need to consider and learn more about before even starting to build anything. I also want thank my fellow coder Kyle Murray @theykay who took time helping me fix a bug in my original code after a day of searching. The following materials contribute to the completion of this project too. 
+I would like to thank my TA Katie @fkakatie for her guidance and efforts to help me understand the landscape of this project and some of the aspects I need to consider and learn more about before even starting to build anything. I also want to thank my fellow coder Kyle Murray @theykay who took time helping me fix a bug in my original code after a day of searching for a solution. The following materials contribute to the completion of this project too. 
 
 * [Password Special characters - www.owasp.org](https://owasp.org/www-community/password-special-characters)
 * [Random password generator - www.wikipedia.org](https://en.wikipedia.org/wiki/Random_password_generator)
@@ -91,10 +91,10 @@ I would like to thank my TA Katie @fkakatie for her guidance and efforts to help
 <a name="learned"></a>
 ### 9. What I've Learned
 * Understanding the user story and objectives: WHY I need to build this app and what problem this app can solve is critical for me to proceed.
-* Using plain english to go through the steps of users action and interaction before starting to code not only helped me what decide functions I have learned might be used, but also helped boost my confidence, making me a HAPPY coder. :)
-* Working with a team is one of the best ways to learn. I like to hear how others approach the same problems from different angles and often than not, I'll find some flaws or gaps in my own logics and look for ways to make my solutions better and sound. 
-* Testing and iterating are absolutely a MUST. I was pretty confident that my app was bullet proof (since everything looked fine in the console as I was coding) until I tested it on the deployed site. Yes, I found bugs. 
-* In the future maybe it is worth trying how to improve the security level of the random password by adding encryption methods, or making it into a different user interface such as checkboxes and more. 
+* Using plain english to go through each step of users action and interaction before starting to code not only helped me look through my "tool box" for this app, but also helped boost my confidence. :)
+* Working with a team is one of the best ways to learn. I like to hear how others approach the same problems from different angles and often than not, I'll find some flaws or gaps in my own logic and look for ways to make my solutions better and sound. 
+* Testing and iterating are absolutely a MUST. I was pretty confident that my app was bulletproof (since everything looked fine in the console as I was coding) until I tested it on the deployed site. Yes, I found bugs. 
+* In the future maybe it is worth trying how to improve the security level of the random password by adding encryption methods, or making it into a different user interface such as checkboxes instead of prompts. 
 
 
 <a name="License"></a>
