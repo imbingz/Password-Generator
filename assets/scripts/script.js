@@ -11,28 +11,32 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+// Create a variable that holds users input for password length 
+var userLength = "";
+// Create a variable that will holds the preference characters
+var allChar = "";
+// create a variable that holds the sum of characters selected randomly 
+var passwordChar = "";
 
 function generatePassword() {
+  // reset variable values to empty
+  userLength = "";
+  allChar = "";
+  passwordChar = "";
   validateInput();
   addChar();
   randomPassword();
   return passwordChar;
 }
 
-// Create a variable that holds users input for password length 
-var userLength = "";
 // Create a function to validate the users input 
 function validateInput() {
-  // Prompt users to choose their passwords length
-    prompt("Please enter a number as your password length. The number must be between 8 and 128, inclusive.")
   // Create a while-loop that will keep prompting the users if the users input is not a number between 8 and 128 
     while (isNaN(parseInt(userLength, 10)) || parseInt(userLength, 10) < 8 || parseInt(userLength, 10) > 128) {
     userLength = prompt("Please enter a number as your password length. The number must be between 8 and 128, inclusive.");
   }
 }
 
-// Create a variable that will holds the preference characters
-var allChar = "";
 // Create a function that will collect/add-up all characters of user preference 
 function addChar() {
   //  Create a variables for each users preference
@@ -53,21 +57,17 @@ function addChar() {
     var lowercase = "abcdefghijklmnopqrstuvwxyz";
     allChar += lowercase 
   }
-  
   if (answerSymbol) {
     var symbol = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~';
     allChar += symbol
-  }
-  
-  else {
+  } 
+  if (!answerNumber && !answerUpper && !answerLower && !answerSymbol) {
     alert("You must choose at least a numer, an uppercase letter, a lowercase letter or a symbol. Please try again!");
     addChar();
   }
   return allChar
 }
 
-// create a variable that holds the sum of characters selected randomly 
-var passwordChar = "";
 // Create a function that will generate the password randomly 
 function randomPassword() {
   // Create a for-loop to randomly select the char for the same number of times as the password length chosen by user
